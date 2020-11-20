@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trello</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+  </head>
+  <body>
+    <!-- Section 1: Header: "Boards Button", "Search Bar", "Trello Logo", "Icons" -->
+    <section class="header">
+      <div class="boards-btn">
+        <button class="boards-button-actual">
+          <img id="board-img" src="board-logo.webp" alt="TrelloLogo">
+          <p id="board-link">Boards</p>
+        </button>
+      </div>
+      <div class="search-bar">
+        <input type="text" id="search">
+        <i class="fas fa-search"></i> 
+      </div>
+      <div class="middle-logo">
+        <img id="logo-img" src="Trello_logo.svg" alt="TrelloLogo">
+      </div>
+      <div class="icons-right">
+        <i class="fas fa-plus"></i>
+        <i class="fas fa-info"></i>
+        <i class="fas fa-bell"></i>
+        <i class="fas fa-user"></i>
+      </div>
+    </section>
+
+    <!-- Section 2: Navigation bar: "Name of Board", "Type of Board", "Menu" -->
+    <section class="nav-bar">
+      <div class="board-name">
+        <p>Board Name</p>
+      </div>
+      <div class="board-type">
+        <i class="fas fa-star"></i>
+        <p>Personal</p>
+        <i class="fas fa-signature"></i>
+        <p>Private</p>
+      </div>
+      <div class="menu">
+        <!-- <button class="menu-btn show">Show Menu</button> -->
+        <!-- <p class="menu_title_r show">Menu</p> -->
+      </div>
+    </section>
+
+    <!-- Section 3: Content, An "Add New Task" button, Each Task Box needs: Title, Card (todo), and "Add card" btn  -->
+    <section class="content"></section>
+
+    <!-- JavaScript files  -->
+    <script src="helper.js"></script>
+    <script src="elements.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
+

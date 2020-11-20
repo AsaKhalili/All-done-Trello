@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trello</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+  </head>
+  <body>
+    <!-- Section 1: Header: "Boards Button", "Search Bar", "Trello Logo", "Icons" -->
+    <section class="header">
+      <div class="boards-btn">
+        <button>
+          <img id="board-img" src="board-logo.webp" alt="TrelloLogo">
+          <a id="board-link" href="#">Boards</a>
+        </button>
+      </div>
+      <div class="search-bar">
+        <input type="text" id="search">
+        <i class="fas fa-search"></i> 
+      </div>
+      <div class="middle-logo">
+        <img id="logo-img" src="Trello_logo.svg" alt="TrelloLogo">
+      </div>
+      <div class="icons-right">
+        <i class="fas fa-plus"></i>
+        <i class="fas fa-info"></i>
+        <i class="fas fa-bell"></i>
+        <i class="fas fa-user"></i>
+      </div>
+    </section>
+
+    <!-- Section 2: Navigation bar: "Name of Board", "Type of Board", "Menu" -->
+    <section class="nav-bar">
+      <div class="board-name">
+        <p>Board Name</p>
+      </div>
+      <div class="board-type">
+        <i class="fas fa-star"></i>
+        <p>Personal</p>
+        <i class="fas fa-signature"></i>
+        <p>Private</p>
+      </div>
+      <div class="menu">
+        <!-- <a href="#">...</a> I want it to open up a list menu when it's clicked -->
+        <p>Show Menu</p>
+      </div>
+    </section>
+
+    <!-- Section 3: Content, An "Add New Task" button, Each Task Box needs: Title, Card (todo), and "Add card" btn  -->
+    <section class="content">
+      <!-- <div class="task-box">
+        <p class="task-box-title">Task Title</p>
+        <div class="cards-box">
+          <ul class="list-of-cards">
+            <li>Task</li>
+          </ul>
+        </div>
+        <div class="add-card-btn">
+          <button id="card-btn">Add a Card...</button>
+        </div>
+        <div class="input-card hide">
+        <input class="input-space-card" type="text" placeholder="Enter a title for this card...">
+        <button id="add-card-btn-input">Add Card</button>
+        <button id="input-abort">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      </div>
+      <div class="add-task-box-btn show">
+        <button id="task-btn">Add a List</button>
+      </div> -->
+
+      
+      <!-- <div class="add-new-list hide">
+        <input type="text" class="btn-input-title" placeholder="Enter Title...">
+        <button id="Add-list">Add List</button>
+        <button id="abort">
+          <i class="fas fa-times"></i>
+        </button>
+      </div> -->
+    </section>
+
+    <!-- JavaScript files  -->
+    <script src="helper.js"></script>
+    <script src="elements.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
